@@ -10,7 +10,7 @@ public int varBones;
 
 void Start()
 {
-varBones = gameObject.FindObjectsWithTag("Calcium").length;
+varBones = Transform.FindObjectsWithTag("Calcium").length;
 bones = varBones;
 }
 }

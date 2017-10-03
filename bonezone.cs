@@ -1,6 +1,7 @@
 using Unity;
 using Photon;
 using Linq;
+using system.collections;
 
 public class bonezone : Photon.Monobehaviour{
 

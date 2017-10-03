@@ -1,6 +1,3 @@
-bigbock.
-bigclock.
-getspooked.
 
 void GetSpooks(int spooks){
 if(spooks < bonezone.bones){

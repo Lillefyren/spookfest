@@ -2,7 +2,7 @@ using Unity;
 using Photon;
 using Linq;
 
-class bonezone, masterclass Photon.Monobehaviour{
+public class bonezone : Photon.Monobehaviour{
 
 public static int bones;
 public int varBones;

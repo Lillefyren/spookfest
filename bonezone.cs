@@ -10,7 +10,7 @@ public int varBones;
 
 void Start()
 {
-varBones = Transform.FindObjectsWithTag("Calcium").length;
+varBones = Transform.FindObjectsWithTag("Calcium").ToList().count;
 bones = varBones;
 }
 }
